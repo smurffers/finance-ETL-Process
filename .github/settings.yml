@@ -8,7 +8,7 @@ repository:
   description: Explore ETL tools and techniques
 
   # A URL with more information about the repository
-  homepage: https://fiaas.github.io/
+  #homepage: 
 
   # A comma-separated list of topics to set on the repository
   topics: ETL, snowflake
