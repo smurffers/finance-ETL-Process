@@ -1,4 +1,4 @@
-from .context import src
+import src
 import unittest
 
 class BasicTestSuite(unittest.TestCase):
