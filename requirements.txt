@@ -1,1 +1,2 @@
 # Holds all the dependencies related to this project
+pylint
