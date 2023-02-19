@@ -3,7 +3,7 @@ install:
 		pip install -r requirements.txt
 		
 lint:
-	pylint --disable=R,C ./src ./test
+	pylint --disable=R,C ./src ./tests
 
 test:
 	python -m unittest
