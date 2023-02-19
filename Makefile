@@ -9,4 +9,4 @@ test:
 	python -m unittest
 
 
-all: install post-install lint test format 
+all: install lint test format 

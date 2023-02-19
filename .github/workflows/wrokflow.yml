@@ -13,4 +13,4 @@
       - name: checkout repo
         uses: actions/checkout@v2
       - name: check pr ready
-        run: make build
+        run: make all
