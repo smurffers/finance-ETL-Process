@@ -3,10 +3,10 @@ install:
 		pip install -r requirements.txt
 		
 lint:
-	pylint --disable=R,C *.py devopslib
+	pylint --disable=R,C ./src ./tests
 
 test:
 	python -m unittest
 
 
-all: install post-install lint test format 
+all: install lint test
