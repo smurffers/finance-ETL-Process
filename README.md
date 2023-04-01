@@ -1,6 +1,6 @@
 # Finance-ETL-Process
-
-The main aim of this repo is to scrape various stock related data from yfinance and also gather tweet related data with resepect to the stocks that are being considered and store all the relevant information in a central storage place. After the data is transformed then perfrom further analysis on relation between stock prices and tweets and also predict the next days stock movement based on the previous values and tweet sentiment.
+The main aim of this repo is to get the finacial statements of all publicly traded companies from the https://www.sec.gov/edgar/sec-api-documentation website using
+python and then create a data asset containing all this information in a de-normalized fashion that can be easily queryable.
 
 ## Best Practices
 
