@@ -134,3 +134,4 @@ keys/
 # Terraform files
 .terraform/
 .terraform.*
+*.tfstate*

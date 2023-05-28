@@ -5,6 +5,8 @@ terraform {
       version = "4.51.0"
     }
   }
+
+  backend "local" {}
 }
 
 provider "google" {
@@ -15,6 +17,16 @@ provider "google" {
   zone    = var.project["zone"]
 }
 
-resource "google_compute_network" "vpc_network" {
-  name = "terraform-network"
+resource "google_storage_bucket" "stock-company-bucket" {
+    name = "stock-companies-id"
+    location = var.project["region"]
+    force_destroy = true
+
+    autoclass {
+      enabled = true
+    }
+
+    versioning {
+      enabled = true
+    }
 }
